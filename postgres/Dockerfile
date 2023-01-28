@@ -1,1 +1,1 @@
-FROM postgres:14.5
+FROM --platform=arm64 postgres:14.5

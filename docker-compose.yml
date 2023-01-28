@@ -14,7 +14,7 @@ services:
         max-file: "3"
     ports:
       - 5432:5432
-    restart: always
+    # restart: always
     volumes:
       - ./postgres/var/lib/postgresql/data:/var/lib/postgresql/data
       - ./postgres/docker-entrypoint-initdb.d/:/docker-entrypoint-initdb.d/
