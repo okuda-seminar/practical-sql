@@ -1,4 +1,4 @@
 SELECT name,
        age,
-       RANK() OVER(ORDER BY age DESC) AS rnk
+       DENSE_RANK() OVER(ORDER BY age DESC) AS dense_rnk
   FROM Address;
