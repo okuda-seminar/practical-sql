@@ -1,9 +1,12 @@
 CREATE TABLE Table_A
 (col_a CHAR(1));
+INSERT INTO Table_A VALUES(1);
 
 CREATE TABLE Table_B
 (col_b CHAR(1));
+INSERT INTO Table_B VALUES(1);
 
 CREATE TABLE Table_C
 (col_c CHAR(1));
+INSERT INTO Table_C VALUES(1);
 
